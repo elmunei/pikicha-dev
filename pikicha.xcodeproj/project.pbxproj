@@ -7,23 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34AE6457A4FCF24F6DB63A02 /* Pods_pikicha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFAC734746F93BA58F50532 /* Pods_pikicha.framework */; };
 		85ECF4161E73D271009956BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4151E73D271009956BF /* AppDelegate.swift */; };
 		85ECF4181E73D271009956BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4171E73D271009956BF /* ViewController.swift */; };
-		85ECF41B1E73D271009956BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF4191E73D271009956BF /* Main.storyboard */; };
 		85ECF41E1E73D271009956BF /* pikicha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF41C1E73D271009956BF /* pikicha.xcdatamodeld */; };
 		85ECF4201E73D271009956BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF41F1E73D271009956BF /* Assets.xcassets */; };
-		85ECF4231E73D271009956BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF4211E73D271009956BF /* LaunchScreen.storyboard */; };
+		85ECF42C1E73D5A3009956BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF42A1E73D5A3009956BF /* LaunchScreen.storyboard */; };
+		85ECF4311E73D617009956BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF4301E73D617009956BF /* Main.storyboard */; };
+		85ECF45D1E73D713009956BF /* AddCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4321E73D713009956BF /* AddCommentViewController.swift */; };
+		85ECF45E1E73D713009956BF /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4331E73D713009956BF /* AddPostViewController.swift */; };
+		85ECF45F1E73D713009956BF /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4341E73D713009956BF /* Comment.swift */; };
+		85ECF4601E73D713009956BF /* CommentsImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4351E73D713009956BF /* CommentsImageTableViewCell.swift */; };
+		85ECF4611E73D713009956BF /* CommentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4361E73D713009956BF /* CommentsTableViewController.swift */; };
+		85ECF4621E73D713009956BF /* CustomizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4371E73D713009956BF /* CustomizableButton.swift */; };
+		85ECF4631E73D713009956BF /* CustomizableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4381E73D713009956BF /* CustomizableImageView.swift */; };
+		85ECF4641E73D713009956BF /* CustomizableTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4391E73D713009956BF /* CustomizableTextfield.swift */; };
+		85ECF4651E73D713009956BF /* CustomizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF43A1E73D713009956BF /* CustomizableView.swift */; };
+		85ECF4661E73D713009956BF /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF43B1E73D713009956BF /* DataService.swift */; };
+		85ECF4671E73D713009956BF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF43C1E73D713009956BF /* Extensions.swift */; };
+		85ECF4681E73D713009956BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF43D1E73D713009956BF /* GoogleService-Info.plist */; };
+		85ECF4691E73D713009956BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF43E1E73D713009956BF /* HomeViewController.swift */; };
+		85ECF46A1E73D713009956BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF43F1E73D713009956BF /* LoginViewController.swift */; };
+		85ECF46B1E73D713009956BF /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4401E73D713009956BF /* NetworkingService.swift */; };
+		85ECF46C1E73D713009956BF /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4411E73D713009956BF /* PeopleViewController.swift */; };
+		85ECF46D1E73D713009956BF /* Pikicha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4421E73D713009956BF /* Pikicha.swift */; };
+		85ECF46E1E73D713009956BF /* PMAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4431E73D713009956BF /* PMAlertAction.swift */; };
+		85ECF46F1E73D713009956BF /* PMAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4441E73D713009956BF /* PMAlertController.swift */; };
+		85ECF4701E73D713009956BF /* PMAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF4451E73D713009956BF /* PMAlertController.xib */; };
+		85ECF4711E73D713009956BF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4461E73D713009956BF /* Post.swift */; };
+		85ECF4721E73D713009956BF /* PostImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4471E73D713009956BF /* PostImageTableViewCell.swift */; };
+		85ECF4731E73D713009956BF /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4481E73D713009956BF /* PostsViewController.swift */; };
+		85ECF4741E73D713009956BF /* PostTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF4491E73D713009956BF /* PostTextTableViewCell.swift */; };
+		85ECF4751E73D713009956BF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF44A1E73D713009956BF /* ProfileViewController.swift */; };
+		85ECF4761E73D713009956BF /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF44B1E73D713009956BF /* RoundBtn.swift */; };
+		85ECF4771E73D713009956BF /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF44C1E73D713009956BF /* SCLAlertView.swift */; };
+		85ECF4781E73D713009956BF /* SetUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF44D1E73D713009956BF /* SetUPViewController.swift */; };
+		85ECF4791E73D713009956BF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF44E1E73D713009956BF /* SignUpViewController.swift */; };
+		85ECF47A1E73D713009956BF /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF44F1E73D713009956BF /* TitilliumWeb-Black.ttf */; };
+		85ECF47B1E73D713009956BF /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF4501E73D713009956BF /* TitilliumWeb-Bold.ttf */; };
+		85ECF47C1E73D713009956BF /* TitilliumWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF4511E73D713009956BF /* TitilliumWeb-BoldItalic.ttf */; };
+		85ECF47D1E73D713009956BF /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF4521E73D713009956BF /* TitilliumWeb-ExtraLight.ttf */; };
+		85ECF47E1E73D713009956BF /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF4531E73D713009956BF /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		85ECF47F1E73D713009956BF /* TitilliumWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF4541E73D713009956BF /* TitilliumWeb-Italic.ttf */; };
+		85ECF4801E73D713009956BF /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF4551E73D713009956BF /* TitilliumWeb-Light.ttf */; };
+		85ECF4811E73D713009956BF /* TitilliumWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF4561E73D713009956BF /* TitilliumWeb-LightItalic.ttf */; };
+		85ECF4821E73D713009956BF /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF4571E73D713009956BF /* TitilliumWeb-Regular.ttf */; };
+		85ECF4831E73D713009956BF /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF4581E73D713009956BF /* TitilliumWeb-SemiBold.ttf */; };
+		85ECF4841E73D713009956BF /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85ECF4591E73D713009956BF /* TitilliumWeb-SemiBoldItalic.ttf */; };
+		85ECF4851E73D713009956BF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF45A1E73D713009956BF /* User.swift */; };
+		85ECF4861E73D713009956BF /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF45B1E73D713009956BF /* UserCollectionViewCell.swift */; };
+		85ECF4871E73D713009956BF /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF45C1E73D713009956BF /* UserProfileViewController.swift */; };
+		85ECF48D1E752CEC009956BF /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF48C1E752CEC009956BF /* ContactsViewController.swift */; };
+		85ECF4901E771461009956BF /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF48F1E771461009956BF /* BaseTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CFAC734746F93BA58F50532 /* Pods_pikicha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pikicha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B6FD9B636A02B666DD259D /* Pods-pikicha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pikicha.release.xcconfig"; path = "Pods/Target Support Files/Pods-pikicha/Pods-pikicha.release.xcconfig"; sourceTree = "<group>"; };
+		8158360817B69997BD2277DF /* Pods-pikicha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pikicha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pikicha/Pods-pikicha.debug.xcconfig"; sourceTree = "<group>"; };
 		85ECF4121E73D271009956BF /* pikicha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pikicha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85ECF4151E73D271009956BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85ECF4171E73D271009956BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		85ECF41A1E73D271009956BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85ECF41D1E73D271009956BF /* pikicha.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pikicha.xcdatamodel; sourceTree = "<group>"; };
 		85ECF41F1E73D271009956BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		85ECF4221E73D271009956BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85ECF4241E73D271009956BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85ECF42A1E73D5A3009956BF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85ECF4301E73D617009956BF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		85ECF4321E73D713009956BF /* AddCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCommentViewController.swift; sourceTree = "<group>"; };
+		85ECF4331E73D713009956BF /* AddPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		85ECF4341E73D713009956BF /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		85ECF4351E73D713009956BF /* CommentsImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsImageTableViewCell.swift; sourceTree = "<group>"; };
+		85ECF4361E73D713009956BF /* CommentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsTableViewController.swift; sourceTree = "<group>"; };
+		85ECF4371E73D713009956BF /* CustomizableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableButton.swift; sourceTree = "<group>"; };
+		85ECF4381E73D713009956BF /* CustomizableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableImageView.swift; sourceTree = "<group>"; };
+		85ECF4391E73D713009956BF /* CustomizableTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableTextfield.swift; sourceTree = "<group>"; };
+		85ECF43A1E73D713009956BF /* CustomizableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableView.swift; sourceTree = "<group>"; };
+		85ECF43B1E73D713009956BF /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		85ECF43C1E73D713009956BF /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		85ECF43D1E73D713009956BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85ECF43E1E73D713009956BF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		85ECF43F1E73D713009956BF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		85ECF4401E73D713009956BF /* NetworkingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		85ECF4411E73D713009956BF /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		85ECF4421E73D713009956BF /* Pikicha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pikicha.swift; sourceTree = "<group>"; };
+		85ECF4431E73D713009956BF /* PMAlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMAlertAction.swift; sourceTree = "<group>"; };
+		85ECF4441E73D713009956BF /* PMAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMAlertController.swift; sourceTree = "<group>"; };
+		85ECF4451E73D713009956BF /* PMAlertController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMAlertController.xib; sourceTree = "<group>"; };
+		85ECF4461E73D713009956BF /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		85ECF4471E73D713009956BF /* PostImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImageTableViewCell.swift; sourceTree = "<group>"; };
+		85ECF4481E73D713009956BF /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		85ECF4491E73D713009956BF /* PostTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTextTableViewCell.swift; sourceTree = "<group>"; };
+		85ECF44A1E73D713009956BF /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		85ECF44B1E73D713009956BF /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		85ECF44C1E73D713009956BF /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		85ECF44D1E73D713009956BF /* SetUPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetUPViewController.swift; sourceTree = "<group>"; };
+		85ECF44E1E73D713009956BF /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		85ECF44F1E73D713009956BF /* TitilliumWeb-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Black.ttf"; sourceTree = "<group>"; };
+		85ECF4501E73D713009956BF /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		85ECF4511E73D713009956BF /* TitilliumWeb-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-BoldItalic.ttf"; sourceTree = "<group>"; };
+		85ECF4521E73D713009956BF /* TitilliumWeb-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLight.ttf"; sourceTree = "<group>"; };
+		85ECF4531E73D713009956BF /* TitilliumWeb-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		85ECF4541E73D713009956BF /* TitilliumWeb-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Italic.ttf"; sourceTree = "<group>"; };
+		85ECF4551E73D713009956BF /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		85ECF4561E73D713009956BF /* TitilliumWeb-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-LightItalic.ttf"; sourceTree = "<group>"; };
+		85ECF4571E73D713009956BF /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		85ECF4581E73D713009956BF /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		85ECF4591E73D713009956BF /* TitilliumWeb-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		85ECF45A1E73D713009956BF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		85ECF45B1E73D713009956BF /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		85ECF45C1E73D713009956BF /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		85ECF48C1E752CEC009956BF /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		85ECF48F1E771461009956BF /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34AE6457A4FCF24F6DB63A02 /* Pods_pikicha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +137,8 @@
 			children = (
 				85ECF4141E73D271009956BF /* pikicha */,
 				85ECF4131E73D271009956BF /* Products */,
+				AC2C287B3FFE89C8D60CA328 /* Pods */,
+				B066A57591F7800C2F868B2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +153,117 @@
 		85ECF4141E73D271009956BF /* pikicha */ = {
 			isa = PBXGroup;
 			children = (
-				85ECF4151E73D271009956BF /* AppDelegate.swift */,
+				85ECF48B1E73D818009956BF /* View Controllers */,
+				85ECF48A1E73D7CB009956BF /* Universal Code */,
+				85ECF48E1E75383D009956BF /* Cells */,
+				85ECF4891E73D790009956BF /* Custom Code */,
+				85ECF4881E73D766009956BF /* Fonts */,
 				85ECF4171E73D271009956BF /* ViewController.swift */,
-				85ECF4191E73D271009956BF /* Main.storyboard */,
 				85ECF41F1E73D271009956BF /* Assets.xcassets */,
-				85ECF4211E73D271009956BF /* LaunchScreen.storyboard */,
+				85ECF4301E73D617009956BF /* Main.storyboard */,
+				85ECF42A1E73D5A3009956BF /* LaunchScreen.storyboard */,
 				85ECF4241E73D271009956BF /* Info.plist */,
 				85ECF41C1E73D271009956BF /* pikicha.xcdatamodeld */,
 			);
 			path = pikicha;
+			sourceTree = "<group>";
+		};
+		85ECF4881E73D766009956BF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				85ECF44F1E73D713009956BF /* TitilliumWeb-Black.ttf */,
+				85ECF4501E73D713009956BF /* TitilliumWeb-Bold.ttf */,
+				85ECF4511E73D713009956BF /* TitilliumWeb-BoldItalic.ttf */,
+				85ECF4521E73D713009956BF /* TitilliumWeb-ExtraLight.ttf */,
+				85ECF4531E73D713009956BF /* TitilliumWeb-ExtraLightItalic.ttf */,
+				85ECF4541E73D713009956BF /* TitilliumWeb-Italic.ttf */,
+				85ECF4551E73D713009956BF /* TitilliumWeb-Light.ttf */,
+				85ECF4561E73D713009956BF /* TitilliumWeb-LightItalic.ttf */,
+				85ECF4571E73D713009956BF /* TitilliumWeb-Regular.ttf */,
+				85ECF4581E73D713009956BF /* TitilliumWeb-SemiBold.ttf */,
+				85ECF4591E73D713009956BF /* TitilliumWeb-SemiBoldItalic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		85ECF4891E73D790009956BF /* Custom Code */ = {
+			isa = PBXGroup;
+			children = (
+				85ECF44B1E73D713009956BF /* RoundBtn.swift */,
+				85ECF44C1E73D713009956BF /* SCLAlertView.swift */,
+				85ECF4371E73D713009956BF /* CustomizableButton.swift */,
+				85ECF4381E73D713009956BF /* CustomizableImageView.swift */,
+				85ECF4391E73D713009956BF /* CustomizableTextfield.swift */,
+				85ECF43A1E73D713009956BF /* CustomizableView.swift */,
+				85ECF4431E73D713009956BF /* PMAlertAction.swift */,
+				85ECF4441E73D713009956BF /* PMAlertController.swift */,
+				85ECF4451E73D713009956BF /* PMAlertController.xib */,
+			);
+			name = "Custom Code";
+			sourceTree = "<group>";
+		};
+		85ECF48A1E73D7CB009956BF /* Universal Code */ = {
+			isa = PBXGroup;
+			children = (
+				85ECF48F1E771461009956BF /* BaseTabBarViewController.swift */,
+				85ECF4401E73D713009956BF /* NetworkingService.swift */,
+				85ECF4341E73D713009956BF /* Comment.swift */,
+				85ECF43B1E73D713009956BF /* DataService.swift */,
+				85ECF43C1E73D713009956BF /* Extensions.swift */,
+				85ECF43D1E73D713009956BF /* GoogleService-Info.plist */,
+				85ECF4421E73D713009956BF /* Pikicha.swift */,
+				85ECF4461E73D713009956BF /* Post.swift */,
+				85ECF45A1E73D713009956BF /* User.swift */,
+				85ECF4151E73D271009956BF /* AppDelegate.swift */,
+			);
+			name = "Universal Code";
+			sourceTree = "<group>";
+		};
+		85ECF48B1E73D818009956BF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85ECF4321E73D713009956BF /* AddCommentViewController.swift */,
+				85ECF4331E73D713009956BF /* AddPostViewController.swift */,
+				85ECF4361E73D713009956BF /* CommentsTableViewController.swift */,
+				85ECF43E1E73D713009956BF /* HomeViewController.swift */,
+				85ECF43F1E73D713009956BF /* LoginViewController.swift */,
+				85ECF4411E73D713009956BF /* PeopleViewController.swift */,
+				85ECF4481E73D713009956BF /* PostsViewController.swift */,
+				85ECF44A1E73D713009956BF /* ProfileViewController.swift */,
+				85ECF44D1E73D713009956BF /* SetUPViewController.swift */,
+				85ECF44E1E73D713009956BF /* SignUpViewController.swift */,
+				85ECF45C1E73D713009956BF /* UserProfileViewController.swift */,
+				85ECF48C1E752CEC009956BF /* ContactsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		85ECF48E1E75383D009956BF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				85ECF4351E73D713009956BF /* CommentsImageTableViewCell.swift */,
+				85ECF4471E73D713009956BF /* PostImageTableViewCell.swift */,
+				85ECF4491E73D713009956BF /* PostTextTableViewCell.swift */,
+				85ECF45B1E73D713009956BF /* UserCollectionViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		AC2C287B3FFE89C8D60CA328 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8158360817B69997BD2277DF /* Pods-pikicha.debug.xcconfig */,
+				57B6FD9B636A02B666DD259D /* Pods-pikicha.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B066A57591F7800C2F868B2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CFAC734746F93BA58F50532 /* Pods_pikicha.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85ECF4271E73D271009956BF /* Build configuration list for PBXNativeTarget "pikicha" */;
 			buildPhases = (
+				66FFEA0376528040DB7E5CC6 /* [CP] Check Pods Manifest.lock */,
 				85ECF40E1E73D271009956BF /* Sources */,
 				85ECF40F1E73D271009956BF /* Frameworks */,
 				85ECF4101E73D271009956BF /* Resources */,
+				C23E9DF1889178DE6AFA8868 /* [CP] Embed Pods Frameworks */,
+				A76FF8D26996FB19F7E10D10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,45 +329,119 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85ECF4231E73D271009956BF /* LaunchScreen.storyboard in Resources */,
+				85ECF4311E73D617009956BF /* Main.storyboard in Resources */,
+				85ECF4811E73D713009956BF /* TitilliumWeb-LightItalic.ttf in Resources */,
+				85ECF47D1E73D713009956BF /* TitilliumWeb-ExtraLight.ttf in Resources */,
+				85ECF4681E73D713009956BF /* GoogleService-Info.plist in Resources */,
 				85ECF4201E73D271009956BF /* Assets.xcassets in Resources */,
-				85ECF41B1E73D271009956BF /* Main.storyboard in Resources */,
+				85ECF47B1E73D713009956BF /* TitilliumWeb-Bold.ttf in Resources */,
+				85ECF47E1E73D713009956BF /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+				85ECF4801E73D713009956BF /* TitilliumWeb-Light.ttf in Resources */,
+				85ECF4841E73D713009956BF /* TitilliumWeb-SemiBoldItalic.ttf in Resources */,
+				85ECF4821E73D713009956BF /* TitilliumWeb-Regular.ttf in Resources */,
+				85ECF47F1E73D713009956BF /* TitilliumWeb-Italic.ttf in Resources */,
+				85ECF4701E73D713009956BF /* PMAlertController.xib in Resources */,
+				85ECF42C1E73D5A3009956BF /* LaunchScreen.storyboard in Resources */,
+				85ECF47C1E73D713009956BF /* TitilliumWeb-BoldItalic.ttf in Resources */,
+				85ECF4831E73D713009956BF /* TitilliumWeb-SemiBold.ttf in Resources */,
+				85ECF47A1E73D713009956BF /* TitilliumWeb-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66FFEA0376528040DB7E5CC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A76FF8D26996FB19F7E10D10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pikicha/Pods-pikicha-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C23E9DF1889178DE6AFA8868 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pikicha/Pods-pikicha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85ECF40E1E73D271009956BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85ECF4631E73D713009956BF /* CustomizableImageView.swift in Sources */,
+				85ECF4711E73D713009956BF /* Post.swift in Sources */,
+				85ECF4661E73D713009956BF /* DataService.swift in Sources */,
+				85ECF4601E73D713009956BF /* CommentsImageTableViewCell.swift in Sources */,
+				85ECF4851E73D713009956BF /* User.swift in Sources */,
+				85ECF4651E73D713009956BF /* CustomizableView.swift in Sources */,
+				85ECF45D1E73D713009956BF /* AddCommentViewController.swift in Sources */,
+				85ECF46E1E73D713009956BF /* PMAlertAction.swift in Sources */,
+				85ECF46D1E73D713009956BF /* Pikicha.swift in Sources */,
+				85ECF46C1E73D713009956BF /* PeopleViewController.swift in Sources */,
+				85ECF4691E73D713009956BF /* HomeViewController.swift in Sources */,
+				85ECF4751E73D713009956BF /* ProfileViewController.swift in Sources */,
+				85ECF45F1E73D713009956BF /* Comment.swift in Sources */,
+				85ECF46F1E73D713009956BF /* PMAlertController.swift in Sources */,
+				85ECF4731E73D713009956BF /* PostsViewController.swift in Sources */,
+				85ECF4611E73D713009956BF /* CommentsTableViewController.swift in Sources */,
+				85ECF4781E73D713009956BF /* SetUPViewController.swift in Sources */,
+				85ECF4761E73D713009956BF /* RoundBtn.swift in Sources */,
+				85ECF45E1E73D713009956BF /* AddPostViewController.swift in Sources */,
 				85ECF41E1E73D271009956BF /* pikicha.xcdatamodeld in Sources */,
+				85ECF4741E73D713009956BF /* PostTextTableViewCell.swift in Sources */,
+				85ECF48D1E752CEC009956BF /* ContactsViewController.swift in Sources */,
 				85ECF4181E73D271009956BF /* ViewController.swift in Sources */,
+				85ECF46B1E73D713009956BF /* NetworkingService.swift in Sources */,
 				85ECF4161E73D271009956BF /* AppDelegate.swift in Sources */,
+				85ECF46A1E73D713009956BF /* LoginViewController.swift in Sources */,
+				85ECF4791E73D713009956BF /* SignUpViewController.swift in Sources */,
+				85ECF4721E73D713009956BF /* PostImageTableViewCell.swift in Sources */,
+				85ECF4901E771461009956BF /* BaseTabBarViewController.swift in Sources */,
+				85ECF4641E73D713009956BF /* CustomizableTextfield.swift in Sources */,
+				85ECF4621E73D713009956BF /* CustomizableButton.swift in Sources */,
+				85ECF4861E73D713009956BF /* UserCollectionViewCell.swift in Sources */,
+				85ECF4771E73D713009956BF /* SCLAlertView.swift in Sources */,
+				85ECF4871E73D713009956BF /* UserProfileViewController.swift in Sources */,
+				85ECF4671E73D713009956BF /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		85ECF4191E73D271009956BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85ECF41A1E73D271009956BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		85ECF4211E73D271009956BF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85ECF4221E73D271009956BF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		85ECF4251E73D271009956BF /* Debug */ = {
@@ -261,6 +537,7 @@
 		};
 		85ECF4281E73D271009956BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8158360817B69997BD2277DF /* Pods-pikicha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GUJHFYRL49;
@@ -274,6 +551,7 @@
 		};
 		85ECF4291E73D271009956BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B6FD9B636A02B666DD259D /* Pods-pikicha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GUJHFYRL49;
@@ -304,6 +582,7 @@
 				85ECF4291E73D271009956BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
