@@ -36,7 +36,7 @@ class UserProfileViewController: UIViewController {
         fetchCurrentUserInfo()
     }
     
-   
+ 
     
     private func fetchCurrentUserInfo() {
     

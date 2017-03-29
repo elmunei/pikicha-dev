@@ -59,6 +59,9 @@
 		85ECF4871E73D713009956BF /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF45C1E73D713009956BF /* UserProfileViewController.swift */; };
 		85ECF48D1E752CEC009956BF /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF48C1E752CEC009956BF /* ContactsViewController.swift */; };
 		85ECF4901E771461009956BF /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECF48F1E771461009956BF /* BaseTabBarViewController.swift */; };
+		85F219821E8C482C00568AEA /* waltograph42.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85F219801E8C482C00568AEA /* waltograph42.otf */; };
+		85F219831E8C482C00568AEA /* waltographUI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85F219811E8C482C00568AEA /* waltographUI.ttf */; };
+		85F219851E8C584500568AEA /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F219841E8C584500568AEA /* MenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +121,9 @@
 		85ECF45C1E73D713009956BF /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		85ECF48C1E752CEC009956BF /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		85ECF48F1E771461009956BF /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
+		85F219801E8C482C00568AEA /* waltograph42.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = waltograph42.otf; sourceTree = "<group>"; };
+		85F219811E8C482C00568AEA /* waltographUI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = waltographUI.ttf; sourceTree = "<group>"; };
+		85F219841E8C584500568AEA /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +177,8 @@
 		85ECF4881E73D766009956BF /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				85F219801E8C482C00568AEA /* waltograph42.otf */,
+				85F219811E8C482C00568AEA /* waltographUI.ttf */,
 				85ECF44F1E73D713009956BF /* TitilliumWeb-Black.ttf */,
 				85ECF4501E73D713009956BF /* TitilliumWeb-Bold.ttf */,
 				85ECF4511E73D713009956BF /* TitilliumWeb-BoldItalic.ttf */,
@@ -234,6 +242,7 @@
 				85ECF44E1E73D713009956BF /* SignUpViewController.swift */,
 				85ECF45C1E73D713009956BF /* UserProfileViewController.swift */,
 				85ECF48C1E752CEC009956BF /* ContactsViewController.swift */,
+				85F219841E8C584500568AEA /* MenuTableViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -330,8 +339,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				85ECF4311E73D617009956BF /* Main.storyboard in Resources */,
+				85F219831E8C482C00568AEA /* waltographUI.ttf in Resources */,
 				85ECF4811E73D713009956BF /* TitilliumWeb-LightItalic.ttf in Resources */,
 				85ECF47D1E73D713009956BF /* TitilliumWeb-ExtraLight.ttf in Resources */,
+				85F219821E8C482C00568AEA /* waltograph42.otf in Resources */,
 				85ECF4681E73D713009956BF /* GoogleService-Info.plist in Resources */,
 				85ECF4201E73D271009956BF /* Assets.xcassets in Resources */,
 				85ECF47B1E73D713009956BF /* TitilliumWeb-Bold.ttf in Resources */,
@@ -435,6 +446,7 @@
 				85ECF4641E73D713009956BF /* CustomizableTextfield.swift in Sources */,
 				85ECF4621E73D713009956BF /* CustomizableButton.swift in Sources */,
 				85ECF4861E73D713009956BF /* UserCollectionViewCell.swift in Sources */,
+				85F219851E8C584500568AEA /* MenuTableViewController.swift in Sources */,
 				85ECF4771E73D713009956BF /* SCLAlertView.swift in Sources */,
 				85ECF4871E73D713009956BF /* UserProfileViewController.swift in Sources */,
 				85ECF4671E73D713009956BF /* Extensions.swift in Sources */,

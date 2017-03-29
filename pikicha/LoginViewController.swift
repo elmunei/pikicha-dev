@@ -45,7 +45,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate,FBSDKLoginButto
 
         
         //Initialize a revealing Splash with with the iconImage, the initial size and the background color
-        let revealingSplashView = RevealingSplashView(iconImage: UIImage(named: "Logo")!,iconInitialSize: CGSize(width: 100, height: 100), backgroundColor: UIColor(colorWithHexValue: 0x304D54))
+        let revealingSplashView = RevealingSplashView(iconImage: UIImage(named: "Logo")!,iconInitialSize: CGSize(width: 100, height: 100), backgroundColor: UIColor(colorWithHexValue: 0xFFFFFF))
         
         //Adds the revealing splash view as a sub view
         self.view.addSubview(revealingSplashView)

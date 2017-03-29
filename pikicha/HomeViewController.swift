@@ -88,16 +88,7 @@ class HomeViewController: UIViewController {
     }
     
     
-    @IBAction func logOutAction(_ sender: UIButton) {
-        
-        netService.logout {
-            let loginVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "login") as! LoginViewController
-            loginVC.modalTransitionStyle = .crossDissolve
-            self.present(loginVC, animated: true, completion: nil)
-        }
-        
-        
-    }
+   
     
  
     
@@ -108,8 +99,8 @@ class HomeViewController: UIViewController {
     func setSegmentedControl () {
         
         segmentedControl = HMSegmentedControl(frame: CGRect(x: 0, y: 99, width: self.view.frame.size.width, height: 60))
-        segmentedControl.sectionTitles = ["Favourites", "Stories"]
-        segmentedControl.backgroundColor = UIColor(colorWithHexValue: 0x304D54)
+        segmentedControl.sectionTitles = ["Favourites", "Explore"]
+        segmentedControl.backgroundColor = UIColor(colorWithHexValue: 0x019875)
         segmentedControl.titleTextAttributes = [NSForegroundColorAttributeName: UIColor(red: 1, green: 1, blue: 1, alpha: 0.5), NSFontAttributeName: UIFont(name: "AppleSDGothicNeo-Medium", size: 18)!]
         segmentedControl.selectedTitleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
         segmentedControl.selectionIndicatorColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.5)
